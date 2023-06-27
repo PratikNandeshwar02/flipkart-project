@@ -1,0 +1,27 @@
+.home {
+    padding: 10px;
+    background: #f2f2f2;
+};
+.components {
+    display: flex !important;
+    justify-content: space-between;
+    margin: 55px 130px 0 130px;
+    overflow: hidden;
+}
+.img_box {
+    padding: 12px 8px;
+    text-align: center;
+}
+.text {
+    font-size: 14px;
+    font-weight: 600;
+    font-family: inherit;
+} 
+
+/* ``````````````````````````` */
+.productImage:hover {
+    transform: scale(1.05);
+}
+.addWidth {
+    width: 80% !important;
+}

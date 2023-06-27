@@ -1,0 +1,132 @@
+.header {
+    background: #2874f0;
+    height: 55px;
+    line-height: 0px !important;
+    justify-content: center;
+    margin-left: 11%; 
+    line-height: 0;
+    text-decoration: none;
+}
+.component {
+    margin-left: 11%; 
+    line-height: 0;
+    text-decoration: none;
+}
+.subheading {
+    line-height: 0.5 !important;
+}
+.plusImage {
+    width: 10px;
+    height: 10px;
+    margin-left: 5px;
+}
+/* ```````````````` */
+.inputBox {
+    background: #fff;
+    width: 38%;
+    border-radius: 2px;
+    margin-left: 10px;
+    display: flex;
+}
+.inputSearchBase {
+    padding: 2px 20px;
+    width: 100%;
+    font-size: unset;
+}
+.searchIconWrapper {
+    color: #2874f0;
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+}
+.searchListWrapper {
+    position: absolute;
+    background: #ffffff;
+    color: #000; 
+    margin-top: 37px;
+    width: 36.6%;
+}
+.listOutput {
+    margin: 10px;
+    padding: 10px
+}
+/* `````````````````` */
+.use__buttons {
+    display: flex;
+    align-items: center;
+    margin: 0 3% 0 auto;
+    margin-right: 11%; 
+
+}
+.button {
+    padding-left: 30px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+.login {
+    color: #2874f0 !important;
+    font-weight: 600 !important;
+    background-color: #fff !important;
+    border-radius: 2px !important;
+    height: 32px !important;
+    padding: 5px 40px !important;
+    border: 1px solid #dbdbdb !important;
+    text-transform: none !important;
+    cursor: pointer;
+}
+
+/* `````````````````````````` */
+
+
+.login__dialogBox {
+    height: 70vh;
+    width: 90vh;
+    display: flex;
+}
+.dialog_imageBox {
+    background: #2874f0 url(https://static-assets-web.flixcart.com/www/linchpin/fk-cp-zion/img/login_img_c4a81e.png) center 85% no-repeat;
+    height: 82%;
+    width: 30%;
+    padding: 45px 35px;
+    & > p , & > h5 {
+        color: #ffffff;
+        font-weight: 600;
+    }
+}
+.dialog__form {
+    display: flex !important;
+    flex-direction: column !important;
+    width: 100% !important;
+    height: 100% !important;
+}
+.dialog_box {
+    display: flex !important;
+    flex-direction: column !important;
+    padding: 25px 35px !important;
+    flex: 1;
+    & > div, & > button, & > p {
+        margin-top: 20px !important;
+    }
+}
+.login__Button {
+    text-transform: none !important;
+    background: #fb641b !important;
+    color: #ffff !important;
+    height: 48px !important;
+    border-radius: 2px !important;
+}
+.request__Button {
+    text-transform: none;
+    background: #fff;
+    color: #2874f0;
+    height: 48px;
+    border-radius: 2px;
+    box-shadow: 0 2px 4px 0 rgb(0 0  0/ 20%)
+}
+.create__Account {
+    font-size: 14px;
+    text-align: center;
+    color: #2874f0;
+    font-weight: 600;
+    cursor: pointer;
+}
